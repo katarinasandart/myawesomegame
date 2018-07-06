@@ -51,10 +51,10 @@ img {
     color: black;
 }
 
-a:hover {
+nav a:hover {
     color: purple;
 }
 
-a:active {
+nav a:active {
     color: grey;
 }
