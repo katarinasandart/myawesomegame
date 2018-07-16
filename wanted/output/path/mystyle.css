@@ -1,0 +1,50 @@
+body {
+  background-image: url("img/worldwithogre.jpg");
+  background-color: #F1F1F1;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+h1 {
+  text-align: center;
+  color: #F1F1F1;
+}
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.6;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.right {
+  float: right;
+  width: 45%;
+  padding: 15px;
+  background-color: #F1F1F1;
+  border-radius: 16px;
+  margin-top: 16px;
+}
+.left {
+  float: left;
+  width: 45%;
+  padding: 15px;
+  background-color: #F1F1F1;
+  border-radius: 16px;
+}
+.other {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.6;
+  color: black;
+}
+nav a:hover {
+  color: purple;
+}
+nav a:active {
+  color: grey;
+}
