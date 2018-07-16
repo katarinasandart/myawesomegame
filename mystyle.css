@@ -50,9 +50,10 @@ img {
   border-radius: 16px;
   margin-top: 16px;
   position: relative;
-  animation-name: loop;
-  animation-duration: 8s;
-  animation-iteration-count: 1;
+}
+.right:hover {
+  transform: rotate(360deg);
+  transition: transform 4s ease;
 }
 .left {
   float: left;
